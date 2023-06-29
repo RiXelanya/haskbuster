@@ -1,4 +1,4 @@
-module Main (main) where
+module Haskbuster (main) where
 
 import Lib
 
