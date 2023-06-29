@@ -16,5 +16,5 @@ module Lib (runBuster) where
         req <- parseRequest url
         resp <- httpBS req
         let respCode = getResponseStatusCode resp
-        printcode respCode dir
+        printcode respCode url
         runBuster base dirs
